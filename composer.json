@@ -1,0 +1,19 @@
+{
+  "name": "vhoxha/php-derby",
+  "description": "A simple demo for a derby (horse race) game.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Visar Hoxha",
+      "email": "vhoxha08@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "phalcon/ide-stubs": "^3.4",
+    "vlucas/phpdotenv": "^3.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
