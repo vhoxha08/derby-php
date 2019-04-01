@@ -30,7 +30,7 @@ $di->setShared('config', $config);
 /**
  * @return DbAdapter
  */
-$di->setShared('setup', function () use ($config) {
+$di->setShared('db', function () use ($config) {
     $connection = new DbAdapter([
         'host' => $config->database->host,
         'username' => $config->database->username,
