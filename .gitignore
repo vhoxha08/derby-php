@@ -4,5 +4,7 @@
 /config/development/
 /vendor/
 /.idea/
-/.env*
+/.env
+/.env.test
 /logs/*.log
+!/.env.sample
