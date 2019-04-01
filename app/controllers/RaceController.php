@@ -28,8 +28,6 @@ class RaceController extends BaseController
 
         $best = RaceHorse::getBestTime();
 
-        $this->logger->warning(var_export($best, true));
-
         return $this->view->render('race/home', [
             "title" => "Race Simulator",
             "races" => $races,
